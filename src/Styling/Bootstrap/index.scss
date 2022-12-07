@@ -1,0 +1,19 @@
+$pt: 4em;
+$secondary-color: #2c3136;
+.home {
+  padding-top: $pt;
+  padding-bottom: $pt;
+}
+
+.about {
+  background-color: #2c3136;
+  padding-top: $pt;
+}
+
+.experience {
+  padding-top: $pt;
+}
+
+.secondary {
+  background-color: $secondary-color;
+}
