@@ -8,9 +8,9 @@ import { Container, Col, Row, Image } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
-  faTwitter,
   faGithub,
   faLinkedin,
+  faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
 
 // Value Import
@@ -52,17 +52,17 @@ export default class Profile extends React.Component {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="#"
+                href="https://web.facebook.com/Hendri.endi.Ramadhan"
                 className="text-white"
               >
-                <FontAwesomeIcon icon={faTwitter} size="2x" />
+                <FontAwesomeIcon icon={faFacebook} size="2x" />
               </a>
             </Col>
             <Col md={2} className="d-flex justify-content-center">
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="#"
+                href="https://github.com/hendriramadhan"
                 className="text-white"
               >
                 <FontAwesomeIcon icon={faGithub} size="2x" />
@@ -72,7 +72,7 @@ export default class Profile extends React.Component {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="#"
+                href="https://www.linkedin.com/in/hendriramadhan/"
                 className="text-white"
               >
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
