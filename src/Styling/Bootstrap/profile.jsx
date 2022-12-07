@@ -1,6 +1,5 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Stack from "react-bootstrap/Stack";
 import Fade from "react-reveal/Fade";
 import hendri from "../Assets/Image/hendri.png";
 import "./index.scss";
