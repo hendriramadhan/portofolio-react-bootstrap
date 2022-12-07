@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade";
 
 const About = () => {
   return (
-    <div className="about d-flex">
+    <div className="about d-flex" id="about">
       <Container>
         <Row className="mb-5 mt-5 text-white">
           <Col md={2}></Col>

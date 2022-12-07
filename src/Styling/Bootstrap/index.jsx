@@ -16,19 +16,17 @@ export class Bootstrap extends React.Component {
         className="shadow"
       >
         <Container className="mt-2 mb-2">
-          <Navbar.Brand href="#home">My Portofolio</Navbar.Brand>
+          <Navbar.Brand href="/">My Portofolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse
             className="justify-content-end"
             id="responsive-navbar-nav"
           >
             <Nav>
-              <Nav.Link href="#deets">Home</Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
-                About
-              </Nav.Link>
-              <Nav.Link href="#">Experience</Nav.Link>
-              <Nav.Link href="#">Contact me</Nav.Link>
+              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#experience">Experience</Nav.Link>
+              <Nav.Link href="#contact">Technology</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
