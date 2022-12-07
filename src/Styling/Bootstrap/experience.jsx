@@ -1,7 +1,7 @@
 import React from "react";
 import "react-bootstrap";
 import { Card, Col, Container, Row } from "react-bootstrap";
-import "../Bootstrap/index.scss";
+import "../Bootstrap/index.css";
 import Fade from "react-reveal/Fade";
 
 const Experience = () => {

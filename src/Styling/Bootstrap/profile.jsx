@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Fade from "react-reveal/Fade";
 import hendri from "../Assets/Image/hendri.png";
-import "./index.scss";
+import "./index.css";
 
 import { Container, Col, Row, Image } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -51,7 +51,7 @@ export default class Profile extends React.Component {
             <Col md={2} className="d-flex justify-content-center">
               <a
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 href="https://web.facebook.com/Hendri.endi.Ramadhan"
                 className="text-white"
               >
@@ -61,7 +61,7 @@ export default class Profile extends React.Component {
             <Col md={2} className="d-flex justify-content-center">
               <a
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 href="https://github.com/hendriramadhan"
                 className="text-white"
               >
@@ -71,7 +71,7 @@ export default class Profile extends React.Component {
             <Col md={2} className="d-flex justify-content-center">
               <a
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 href="https://www.linkedin.com/in/hendriramadhan/"
                 className="text-white"
               >

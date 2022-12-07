@@ -1,4 +1,5 @@
 import Styling from "./Styling";
+import React from "react";
 
 function App() {
   return (

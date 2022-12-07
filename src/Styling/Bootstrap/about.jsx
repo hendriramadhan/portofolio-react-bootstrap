@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
-import "./index.scss";
+import "./index.css";
 import Fade from "react-reveal/Fade";
 
 const About = () => {
